@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+<style>
+ 
+    @media only screen and (max-width:500px) {
+      /* For mobile phones: */
+     .images, .home, .detel, .social{
+        width: 20%;
+      }
+    }
+    @media only screen and (max-width:800px) {
+      /* For tablets: */
+      .detel {
+        width: 20%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+    }
+    </style>
 <body>
     <div class="hero">
         <nav>
@@ -28,8 +47,8 @@
 
 
         <div class="images">
-            <img src="images/shape.png" class="shape">
-            <img src="images/call.png" class="girl">
+            <img src="images/shape.png" class="shape" style="width:90%">
+            <img src="images/call.png" class="girl" style="width: 90%">
         </div>
         <div class="social">
             <a href=" https://wa.me/+917034999762"><i class="fab fa-whatsapp"></i></a>

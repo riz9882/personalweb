@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,6 +19,23 @@ h2 {
   font-size: 30px;
 }
 
+ 
+ @media only screen and (max-width:500px) {
+   /* For mobile phones: */
+  .images, .home, .detel, .social{
+     width: 20%;
+   }
+ }
+ @media only screen and (max-width:800px) {
+   /* For tablets: */
+   .detel {
+     width: 20%;
+     padding: 0;
+   }
+   .right {
+     width: 100%;
+   }
+ }
 
 </style>
 
@@ -37,9 +56,9 @@ h2 {
         <h1>   RESUME</h1>
     </div>
 
-    <img src="images/cv.png" >
+    <img src="images/cv.png" style="width: 90%" >
     <div class="imagess">
-        <img src="images/pd.jpg"width="1500" height="200">
+        <img src="images/pd.jpg"width="15000" height="200" style="width: 90%">
     </div>
     
 
