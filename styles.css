@@ -77,22 +77,23 @@ span{
 .images{
     width: 45%;
     height: 80%;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
+    position:fixed;
+    top: 30%;
+    right: 10px;
 }
 
 .images img{
     height: 100%;
     position: absolute;
     left: 50%;
-    bottom: 0;
+   top: 15%;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s;
 }
 
 .images:hover .shape{
-    bottom: 40px;
+    bottom: 60px;
+    
 }
 
 .images:hover .girl{
@@ -120,10 +121,34 @@ span{
     margin-right: auto;
     width: 50%;
   }
-  .imagess{
+  .ima{
     width: 45%;
     height: 80%;
     position: absolute;
     bottom: 0;
     right: 800px;
+}
+.ima{
+    width: 45%;
+    height: 80%;
+    position:fixed;
+    top: 25%;
+    right: 10px;
+}
+.ima img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+   top: 15%;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.ima:hover .shape{
+    bottom: 60px;
+    
+}
+
+.ima:hover .girl{
+    left: 45%;
 }
